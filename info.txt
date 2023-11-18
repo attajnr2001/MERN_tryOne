@@ -1,0 +1,2 @@
+the database is called MERN TRY ONE with cluster 0 in mongoDb attajnr731@gmail.com
+the firebase folder is called dummy

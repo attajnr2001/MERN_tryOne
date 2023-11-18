@@ -1,0 +1,76 @@
+:root {
+  color: #333;
+  font-family: "poppins";
+  width: 90%;
+  margin: auto;
+}
+
+a {
+  color: #333;
+  text-decoration: none;
+}
+
+* {
+  margin: 0;
+}
+
+.homeLayout {
+  padding: 1em;
+
+  nav {
+    margin-bottom: 2em;
+
+    .navlink {
+      margin-right: 1em;
+      color: crimson;
+    }
+    .active {
+      background: crimson;
+      color: #fff;
+      padding: 0.3em 1em;
+      border-radius: 0.3em;
+    }
+  }
+}
+
+.home {
+  .each {
+    background: #e4e4e477;
+    margin: 0.4em 0;
+    border-radius: 0.3em;
+    padding: 1em;
+    
+    a{
+      display: flex;
+      gap: 1em;
+    }
+    img{
+      width: 30px;
+      height: 30px;
+      border: 2px solid #33333365;
+      border-radius: 50%;
+    }
+  }
+}
+
+
+.addUser{
+  input{
+    font-size: 1em;
+    margin: .3em 0;
+  }
+
+  .control{
+
+    img{
+      width: 50px;
+      height: 50px;
+      border-radius: 50%;
+      border: 1px solid #333;
+    }
+  }
+}
+
+button:disabled{
+  background: #fff;
+}
